@@ -2,6 +2,16 @@
 
 Welcome to the Machine Learning Automation Training Repository! This repository is organized to help you practice and consolidate your learning during the training sessions. Each section corresponds to a specific topic covered in the training agenda.
 
+## Setting up Jupyter Lab with venv
+[Website explaining the same](https://www.linkedin.com/pulse/how-use-virtual-environment-inside-jupyter-lab-sina-khoshgoftar)
+```bash
+    .\venv\Scripts\activate
+
+    pip install ipykernel
+    
+    python -m ipykernel install --user --name=venv
+```
+
 ## Table of Contents
 
 1. [Introduction to Machine Learning and AI](./01_Intro_to_ML_AI)
